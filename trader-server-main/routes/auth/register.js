@@ -26,7 +26,7 @@ router.post("/register", async (req, res) => {
       frequency,
       name,
       photo,
-      signal,
+      signal:0,
       senderAddress: 'none',
       serviceType: 'none',
       paymentMode: 'none',
